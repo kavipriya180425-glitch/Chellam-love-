@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kavipriya ❤️ Punith</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      color: white;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    h3 {
+      font-weight: normal;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      margin: 15px;
+      cursor: pointer;
+    }
+
+    .yes {
+      background: #ff1a8c;
+      color: white;
+    }
+
+    .no {
+      background: white;
+      color: #ff1a8c;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 20px;
+      margin: 15px 0;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- STARTING SECTION -->
+  <h1>Will you be mine forever? 💖</h1>
+  <h3>Punith Kumar 😘</h3>
+
+  <!-- PHOTO SECTION -->
+  <img src="photo1.jpg" alt="Memory 1">
+  <br>
+  <img src="photo2.jpg" alt="Memory 2">
+
+  <!-- MAIN BUTTON SECTION -->
+  <div>
+    <button class="yes" onclick="showLove()">Yes Chellam 💕</button>
+    <button class="no">No 🙈</button>
+  </div>
+
+  <div class="message" id="loveMessage"></div>
+
+  <!-- MUSIC SECTION -->
+  <h3>Our Special Songs 🎵</h3>
+
+  <p>Munbe Vaa</p>
+  <audio controls>
+    <source src="munbevaa.mp3" type="audio/mpeg">
+  </audio>
+
+  <p>Konji Pesida Venaam</p>
+  <audio controls>
+    <source src="konji.mp3" type="audio/mpeg">
+  </audio>
+
+  <p>Sonnathu Sonnathu</p>
+  <audio controls>
+    <source src="sonnathu.mp3" type="audio/mpeg">
+  </audio>
+
+  <p>Panithuli</p>
+  <audio controls>
+    <source src="panithuli.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ENDING SECTION -->
+  <footer>
+    Made with Love by Kavipriya ❤️  
+    <br>
+    Love you forever ♾️
+  </footer>
+
+  <script>
+    function showLove() {
+      document.getElementById("loveMessage").innerHTML =
+      "You just made me the happiest girl alive! Love you so much forever ♾️ 💖";
+    }
+  </script>
+
+</body>
+</html>
